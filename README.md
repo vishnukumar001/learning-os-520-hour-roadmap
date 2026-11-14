@@ -3,7 +3,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Built with Vite](https://img.shields.io/badge/Vite-5.x-646CFF.svg?logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Stack: Vanilla JS](https://img.shields.io/badge/Frontend-Vanilla%20JavaScript-F7DF1E.svg?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Deployment: Vercel](https://img.shields.io/badge/Deploy-Vercel-000000.svg?logo=vercel&logoColor=white)](https://vercel.com/)
+[![Deploy to GitHub Pages](https://github.com/vishnukumar001/learning-os-520-hour-roadmap/actions/workflows/deploy.yml/badge.svg)](https://github.com/vishnukumar001/learning-os-520-hour-roadmap/actions/workflows/deploy.yml)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-2ea44f.svg?logo=github&logoColor=white)](https://vishnukumar001.github.io/learning-os-520-hour-roadmap/)
 
 A personal engineering command center designed to track, measure, and navigate an intensive **520-hour curriculum** spanning **AI Automation & Agent Engineering**, **Cybersecurity Engineering**, and **Production-Ready Capstone Projects**.
 
@@ -207,14 +208,12 @@ Regularly backing up your JSON data ensures your progress is safely preserved ac
    - **Output Directory**: `dist`
 5. Click **Deploy**.
 
-### Deploy to GitHub Pages
+### Deploy to GitHub Pages (Automated via GitHub Actions)
 
-1. In `vite.config.js`, set `base: '/learning-os-520-hour-roadmap/'` if deploying under your username repository path.
-2. Build the project:
-   ```bash
-   npm run build
-   ```
-3. Deploy the `dist` directory using the `gh-pages` branch or GitHub Actions static workflow.
+This repository includes a pre-configured GitHub Actions workflow at [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) that automatically builds and deploys the site whenever commits are pushed to the `main` branch.
+
+- **Live URL**: [https://vishnukumar001.github.io/learning-os-520-hour-roadmap/](https://vishnukumar001.github.io/learning-os-520-hour-roadmap/)
+- **Workflow Triggers**: Automatic on pushes to `main`, or manually via **Actions → Deploy to GitHub Pages → Run workflow**.
 
 ### Deploy to Netlify
 

@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/',
+  base: '/learning-os-520-hour-roadmap/',
   build: { outDir: 'dist' }
 });
