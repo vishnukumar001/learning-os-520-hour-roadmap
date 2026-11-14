@@ -6,6 +6,8 @@
 [![Deploy to GitHub Pages](https://github.com/vishnukumar001/learning-os-520-hour-roadmap/actions/workflows/deploy.yml/badge.svg)](https://github.com/vishnukumar001/learning-os-520-hour-roadmap/actions/workflows/deploy.yml)
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-2ea44f.svg?logo=github&logoColor=white)](https://vishnukumar001.github.io/learning-os-520-hour-roadmap/)
 
+> 🚀 **Live Web App**: [**https://vishnukumar001.github.io/learning-os-520-hour-roadmap/**](https://vishnukumar001.github.io/learning-os-520-hour-roadmap/)
+
 A personal engineering command center designed to track, measure, and navigate an intensive **520-hour curriculum** spanning **AI Automation & Agent Engineering**, **Cybersecurity Engineering**, and **Production-Ready Capstone Projects**.
 
 Designed with a zero-framework, privacy-first philosophy: 100% client-side, zero external telemetry, instant startup, and zero backend maintenance.
